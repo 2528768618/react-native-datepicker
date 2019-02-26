@@ -189,6 +189,8 @@ class DatePicker extends Component {
       allowPointerEvents: false,
       date: date
     });
+    
+    // 这里为什么添加这个定时器？？？？
     const timeoutId = setTimeout(() => {
       this.setState({
         allowPointerEvents: true
